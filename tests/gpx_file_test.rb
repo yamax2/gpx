@@ -72,6 +72,6 @@ class GPXFileTest < Minitest::Test
     assert_equal(1, gpx_file.tracks.first.segments.size)
     assert_equal(21.0, gpx_file.duration)
     assert_equal(21.0, gpx_file.moving_duration)
-    assert_equal(6.674040636626879, gpx_file.average_speed)
+    assert_equal(6.674040636626878, gpx_file.average_speed)
   end
 end
